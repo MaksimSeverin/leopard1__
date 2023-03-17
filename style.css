@@ -1,0 +1,43 @@
+body { 
+   background-color: rgb(112, 112, 128); 
+}
+
+h1 {
+    color: rgb(0, 4, 255);
+    font-size: 45px;
+    text-align: center;
+
+}
+
+li {
+    font-size: 20px;
+}
+
+.text-1 {
+    color: black;
+}
+
+.text-2 {
+    color: red;
+}
+
+.text-3 {
+    color: yellow;
+}
+
+.photo-1 {
+    width: 700px;
+    height: 400px;
+    margin-left: 350px;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+
+h1 + p::first-letter {
+    color: aqua;
+    width: 24px;
+    font-size: 30px;
+  }
